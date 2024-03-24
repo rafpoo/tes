@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+form {
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 20px; /* Posisi modal di pojok kanan atas */
+    top: 20px; /* Posisi modal di pojok kanan atas */
+    width: 300px; /* Lebar modal */
+    max-width: 80%; /* Lebar maksimum modal */
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.modal-content {
+    padding: 20px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.feedback-title {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.feedback-success {
+    background-color: #4CAF50;
+    color: white;
+}
+.feedback-error {
+    background-color: #f44336;
+    color: white;
+}
+.feedback-warning {
+    background-color: #ffcc00;
+    color: black; /* Ganti warna teks menjadi hitam */
+}
+.feedback-updated {
+    background-color: #007bff;
+    color: white;
+    padding: 10px; /* Menambah padding agar teks tidak berdekatan dengan pinggiran kotak */
+}
+
